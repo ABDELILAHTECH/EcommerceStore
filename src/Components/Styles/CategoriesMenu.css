@@ -1,0 +1,20 @@
+.categories-menu__list{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0; 
+}
+
+
+
+
+/* Desktop layout */
+@media (min-width: 768px) {
+.categories-menu__list{
+    order: 2;
+    flex: 2;
+    justify-content: center;
+
+}
+
+}  

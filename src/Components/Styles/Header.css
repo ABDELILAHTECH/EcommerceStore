@@ -1,0 +1,47 @@
+
+header {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;    
+  background-color: #0F172A;
+}
+
+.header__part1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header__icons {
+  display: flex;
+  gap: 1rem; 
+}
+
+
+
+
+
+
+
+
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  header{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between
+  }
+  .header__part1 {
+    order: 1;
+    flex: 1;
+  }
+
+  
+ 
+}
