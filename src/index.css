@@ -6,3 +6,6 @@
   color: #F1F5F9;
   list-style: none;
 }
+input:focus{
+  outline:none;
+}

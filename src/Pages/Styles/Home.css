@@ -1,0 +1,15 @@
+.brand-sections{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20PX;
+}
+.best-of{
+    padding: 20px 0; 
+}
+.best-of-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15PX;
+    padding: 20px 0; 
+}

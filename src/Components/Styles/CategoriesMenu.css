@@ -7,14 +7,3 @@
 
 
 
-
-/* Desktop layout */
-@media (min-width: 768px) {
-.categories-menu__list{
-    order: 2;
-    flex: 2;
-    justify-content: center;
-
-}
-
-}  

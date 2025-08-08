@@ -1,0 +1,40 @@
+.product-card{
+    flex-basis: calc((100% - 30px)/3);
+    position: relative;
+    
+}
+.product-card-img{
+    height: 150px;
+    width: 100%;
+    
+}
+.favoris-icon{
+    position: absolute;
+    border: none;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 5px;
+    right: 6px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+     
+}
+.product-card-name{
+    height: 30px; 
+    overflow: auto;  
+}
+.product-card__add-to-basket-btn{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5PX;
+    padding: 8px 10px;
+    margin: 10px 0; 
+    cursor: pointer;
+}

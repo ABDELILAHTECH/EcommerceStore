@@ -1,0 +1,29 @@
+*{
+    color: white;
+}
+
+.brand-banner{
+    box-sizing: border-box;
+    flex-basis: calc((100% - 20px)/2 );
+    height: 350px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    justify-content: end;   
+    padding: 20px; 
+}
+
+.brand-banner h2{
+    font-weight: 600;
+}
+.brand-banner button{
+    background-color: transparent;
+    border: 1px solid;
+    padding: 6px 20px; 
+    border-radius: 10px;
+    background-color: black;
+}
